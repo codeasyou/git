@@ -51,15 +51,30 @@ $ git add .
 $ git add -p
 
 #删除工作区文件，并将这次删除放入暂存区
-$ rm [file1],[file2]...
+$ git rm [file1],[file2]...
 
 #停止追踪指定文件，但该文件会保留在工作区
-￥ git rm --cached [file]
+$ git rm --cached [file]
+
+#改名文件，并且将这个改名放入暂存区
+$ git mv [file-original] [file-renamed]
 ```
 
+# 四、代码提交
 
+```text
+#提交暂存区到仓库区
+$ git commit -m [message]
 
+#提交暂存区的指定文件到仓库区
+$ git commit [file1] [file2]...
 
+#提交工作区自上次commit之后的变化，直接到仓库区
+$ git commit -a
+
+#提交时显示所有的diff信息
+$ git commit -v
+```
 
 
 
