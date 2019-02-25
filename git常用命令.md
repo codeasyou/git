@@ -31,5 +31,83 @@ $ git config -e [--global]
 
 #设置提交代码时的用户信息
 $ git config [--global] user.name "[name]"
+$ git config [--global] user.email "[address]"
 ```
+
+# 三、增加删除文件
+
+```text
+#添加指定文件到暂存区
+$ git add [file1] [file2] ...
+
+#添加指定目录到暂存区，包括子目录
+$ git add [dir]
+
+#添加当前目录的所有文件到暂存区
+$ git add .
+
+#添加每个变化前，都会要求确认
+#对于同一个文件的多处变化，可以实现分次提交
+$ git add -p
+
+#删除工作区文件，并将这次删除放入暂存区
+$ rm [file1],[file2]...
+
+#停止追踪指定文件，但该文件会保留在工作区
+￥ git rm --cached [file]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
