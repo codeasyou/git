@@ -185,7 +185,7 @@ $ git diff HEAD
 $ git diff [first-branch]...[second-branch]
 
 #显示你今天写了多少行代码
-$ git diff --shortstat"@{0 day ago}"
+$ git diff --shortstat "@{0 day ago}"
 
 #显示当前分支的最近几次提交
 $ git reflog
