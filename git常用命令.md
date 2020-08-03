@@ -167,7 +167,7 @@ $git log -p[file]
 $git log -5 --pretty
 
 #显示所有提交过的用户，按提交次数排序
-$git short log -sn
+$git shortlog -sn
 
 #显示指定文件是什么人在什么时间修改过
 $ git blame [file]
