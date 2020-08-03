@@ -7,7 +7,7 @@
 
 ### 一、新建代码库
 
-```js
+```shell
 #在当前目录新建一个Git代码库
 $ git init
 
@@ -22,7 +22,7 @@ $git clone [url]
 
 Git 的配置文件为 .gitconfig , 它可以在用户主目录下（全局配置），也可以在项目目录下（项目配置）
 
-```js
+```shell
 #显示当前的Git配置
 $ git config --list
 
@@ -36,7 +36,7 @@ $ git config [--global] user.email "[address]"
 
 ### 三、增加删除文件
 
-```js
+```shell
 #添加指定文件到暂存区
 $ git add [file1] [file2] ...
 
@@ -62,7 +62,7 @@ $ git mv [file-original] [file-renamed]
 
 ### 四、代码提交
 
-```js
+```shell
 #提交暂存区到仓库区
 $ git commit -m [message]
 
@@ -78,7 +78,7 @@ $ git commit -v
 
 ### 五、分支
 
-```js
+```shell
 #列出所有本地分支
 $ git branch
 
@@ -119,7 +119,7 @@ $ git push origin --delete[branch-name]
 
 ### 六、标签
 
-```js
+```shell
 #列出所有标签
 $ git tag
 
@@ -147,7 +147,7 @@ $git checkout -b [branch][tag]
 
 ### 七、查看信息
 
-```js
+```shell
 #显示所有变更的文件
 $git status
 
@@ -193,7 +193,7 @@ $ git reflog
 
 ### 八、远程同步
 
-```js
+```shell
 #下载远程仓库的所有变动
 $ git fetch [remote]
 
@@ -222,7 +222,7 @@ $ git push [remote] --all
 
 ### 九、撤销
 
-```js
+```shell
 #恢复暂存区的指定文件到工作区 （进行了 git add 操作，未进行 commit 操作）
 $ git checkout [filename]
 
@@ -232,7 +232,7 @@ $ git checkout .
 
 ### 十、其他
 
-```js
+```shell
 #生成一个可供发布的压缩包
 $ git archive
 ```
