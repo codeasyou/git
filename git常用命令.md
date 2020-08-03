@@ -223,14 +223,16 @@ $ git push [remote] --all
 ### 九、撤销
 
 ```js
-#恢复暂存区的指定文件到工作区
-$ git checkout [file]
+#恢复暂存区的指定文件到工作区 （进行了 git add 操作，未进行 commit 操作）
+$ git checkout [filename]
+
+#恢复暂存区的所有文件到工作区 （进行了 git add 操作，未进行 commit 操作）
+$ git checkout .
 
 #恢复某个 commit 的指定文件到暂存区和工作区
 $ git checkout [commit][file]
 
-#恢复暂存区的所有文件到工作区
-$ git checkout .
+
 
 #重置暂存区的指定文件，与上一次 commit 保持一致，但工作区不变
 $ git reset [file]
