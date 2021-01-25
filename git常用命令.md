@@ -1,6 +1,6 @@
 
 
-+常用Git命令清单：
+常用Git命令清单：
 
 - Workspace:工作区
 - Index/Stage:暂存区
