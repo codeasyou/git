@@ -94,7 +94,7 @@ $ git branch -a
 $ git branch [branch-name]
 
 #新建一个分支，并切换到该分支
-$ git checkout -b[branch]
+$ git checkout -b [branch-name]
 
 #新建一个分支，并与指定的远程分支建立追踪关系
 $ git branch --track [branch][remote-branch]
@@ -238,7 +238,6 @@ $ git checkout .
 #生成一个可供发布的压缩包
 $ git archive
 ```
-
 
 
 
